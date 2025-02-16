@@ -1,0 +1,25 @@
+.afacad-flux{
+  font-family: "Afacad Flux", serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.meow-script-regular{
+  font-family: "Meow Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-image: url('https://i.pinimg.com/736x/b5/b3/2e/b5b32ef8dcf845c1dfc90fe753eafa9a.jpg');
+  background-position: 0px 0px 0px;
+  background-size: 1000%;
+  backdrop-filter: blur(25%);
+  background-repeat: no-repeat;
+  font-family: "Afacad Flux", serif;
+  color: black;
+  text-align: center;
+}
