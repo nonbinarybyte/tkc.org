@@ -16,7 +16,7 @@
 body{
   background-image: url('https://i.pinimg.com/736x/b5/b3/2e/b5b32ef8dcf845c1dfc90fe753eafa9a.jpg');
   background-position: 0px 0px 0px;
-  background-size: 100%;
+  background-size: 1000%;
   backdrop-filter: blur(25%);
   background-repeat: no-repeat;
 }
@@ -47,6 +47,10 @@ header{
   align-items: center; 
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 5px;
+}
+
+header h2{
+  text-align: center;
 }
 
 header a{
@@ -111,3 +115,19 @@ nav a{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #e2a9f8;} 
+
+.Review-Us{
+  font-family: "Afacad Flux", serif;
+  color: black;
+  text-align: center;
+}
+
+.Review-Us a{
+  color: crimson;
+}
+
+.Gallery{
+  font-family: "Afacad Flux", serif;
+  color: black;
+  text-align: center;
+}
