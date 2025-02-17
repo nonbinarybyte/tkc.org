@@ -189,3 +189,21 @@ footer a{
   width: 300px;
   margin: auto;
 }
+
+
+#searchInput{
+  border: none;
+  border-radius: 10%;
+  background-color: white;
+  color: black;
+  font-family: "Afacad Flux", serif;
+  text-align: center;
+}
+
+.Search-SBMT{
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: "Afacad Flux", serif;
+  text-align: center;
+}

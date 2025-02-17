@@ -10,6 +10,7 @@ function search() {
     "Miss Mushy": "miss-mushy.html",
     "Cat Hat": "cat-hat.html",
     "Striped Cat Hat": "cat-hat.html",
+    "Home": "index.html",
     // Add more search terms and pages as needed
   };
 
@@ -22,7 +23,7 @@ function search() {
       alert("Sorry, we don't have anything for " + searchTerm + " right now.");
 
       // 2. Redirect to a default search page:
-      // window.location.href = "search_results.html?q=" + searchTerm; // Pass search term as query parameter
+      window.location.href = "index.html?q=" + searchTerm; // Pass search term as query parameter
 
       // 3. Do nothing (stay on the current page):
       //  (No code needed here)
