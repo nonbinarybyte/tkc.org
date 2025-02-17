@@ -48,6 +48,24 @@ nav a{
   color: crimson;
 }
 
+footer{
+  font-family: "Afacad Flux", serif;
+  color: black;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+footer a{
+  font-family: "Afacad Flux", serif;
+  color: crimson;
+  text-align: center;
+  text-decoration: none;
+  font-style: italic;
+  width: 300px;
+  margin: auto;
+}
+
  /* Dropdown Button */
  .dropbtn {
   background-color: #b88aca;
