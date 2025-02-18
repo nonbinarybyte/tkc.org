@@ -10,7 +10,8 @@ function search() {
     "Miss Mushy": "miss-mushy.html",
     "Cat Hat": "cat-hat.html",
     "Striped Cat Hat": "cat-hat.html",
-    "Home": "index.html",
+    "FAQ": "faq.html",
+    "f.a.q": "faq.html",
     // Add more search terms and pages as needed
   };
 

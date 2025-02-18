@@ -115,3 +115,38 @@ nav a{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #e2a9f8;} 
+
+#searchInput{
+  border: none;
+  border-radius: 10%;
+  background-color: white;
+  color: black;
+  font-family: "Afacad Flux", serif;
+  text-align: center;
+}
+
+.Search-SBMT{
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: "Afacad Flux", serif;
+  text-align: center;
+}
+
+.FAQ-HDR{
+  color: Crimson;
+  text-align: center;
+  font-family: "Afacad Flux", serif;
+}
+.FAQ a{
+  color: crimson;
+}
+.FAQ ul{
+  color: darkcyan;
+  font-family: "Afacad Flux", serif;
+}
+
+.FAQ-1, .FAQ-2, .FAQ-3, .FAQ-4, .FAQ-5{
+  color: black;
+  font-family: "Afacad Flux", serif;
+}
