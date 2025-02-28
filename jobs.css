@@ -1,0 +1,181 @@
+.afacad-flux{
+  font-family: "Afacad Flux", serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.meow-script-regular{
+  font-family: "Meow Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-image: url('https://i.pinimg.com/736x/b5/b3/2e/b5b32ef8dcf845c1dfc90fe753eafa9a.jpg');
+  background-position: 0px 0px 0px;
+  background-size: 1000%;
+  backdrop-filter: blur(25%);
+  background-repeat: no-repeat;
+}
+
+footer{
+  font-family: "Afacad Flux", serif;
+  color: black;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+footer a{
+  font-family: "Afacad Flux", serif;
+  color: crimson;
+  text-align: center;
+  text-decoration: none;
+  font-style: italic;
+  width: 300px;
+  margin: auto;
+}
+
+header{
+  font-family: "Afacad Flux", serif;
+  color: crimson;
+  height: auto;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+header h2{
+  text-align: center;
+}
+
+header a{
+  color: crimson;
+}
+
+nav{
+  font-family: "Afacad Flux", serif;
+  height: auto;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+nav a{
+  color: crimson;
+}
+
+ /* Dropdown Button */
+ .dropbtn {
+  background-color: #b88aca;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-family: "Afacad Flux", serif;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Afacad Flux", serif;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  font-family: "Afacad Flux", serif;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Afacad Flux", serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #e2a9f8;} 
+
+.Review-Us{
+  font-family: "Afacad Flux", serif;
+  color: black;
+  text-align: center;
+}
+
+a{
+  color: crimson;
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Afacad Flux", serif;
+  background-color: white;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.contact-btn{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #b88aca;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Afacad Flux", serif;
+}
+
+.contact-btn:hover {
+  opacity: 0.7;
+}
+
+.contact-lnk{
+  font-size: large;
+}
+
+#searchInput{
+  border: none;
+  border-radius: 10%;
+  background-color: white;
+  color: black;
+  font-family: "Afacad Flux", serif;
+  text-align: center;
+}
+
+.Search-SBMT{
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: "Afacad Flux", serif;
+  text-align: center;
+}
