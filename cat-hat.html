@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta lang="en">
-    <meta name="viewport"
-      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,      width=device-width">
-    <title>Shop!</title>
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crochet Cat Hat</title>
+    <link rel="stylesheet" href="cat-hat.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Meow+Script&display=swap" rel="stylesheet">
@@ -24,9 +22,7 @@
         <i class="bi bi-question-circle"></i>
       </a>
       <div class="dropdown">
-        <button class="dropbtn">
-          <i id="down-caret" class="bi bi-caret-down"></i>Featured Products
-        </button>
+        <button class="dropbtn"><i class="bi bi-caret-down"></i> Featured Products</button>
         <div class="dropdown-content">
           <a href="miss-mushy.html">Miss.Mushy</a>
           <a href="cat-hat.html">Cat Hats</a>
@@ -59,54 +55,42 @@
         </form>
       </div>
     </nav>
-      <hr color="white">
-    <div class="Review-Us">
-      <h2>To give feedback, please consider reviewing us!</h2>
-      <p>You can do so by going <a href="https://www.yelp.com/biz/the-kenny-creative-raleigh">Here.</a></p>
-    </div>
-      <hr color="white">
-    <div class="Gallery">
-      <div class="MissMushy" width="100%">
-        <h2>Miss.Mushy - Gallery</h2>
-        <a href="miss-mushy.html">Visit Her Page.</a>
+    <article>
+      <section>
           <br>
-        <img src="/assets/MIS-MUSHY-1.JPG" width="25%">
-        <img src="/assets/MISS-MUSHY-2.JPG" width="25%">
-        <img src="/assets/MISS-MUSHY-3.JPG" width="25%">
-      </div>
-    </div>
-      <hr color="white">
-    <div class="Products">
-      <h1>COMMING SOON!</h1>
-        <hr color="white">
-      <div class="SOON">
-        <div class="soon-01">
-          <h2>Mini-Totes</h2>
-          <p>Based off of <a href="https://pin.it/7FG2quTxg">this pin.</a></p>
+        <div class="buy-btn">
+          <a class="buy-btn" href="https://buy.stripe.com/aEU3gf8vW1RKaZO3cm">
+            <button class="buy-btn">Buy Now!</button>
+          </a>
         </div>
-        <div class="soon-02">
-          <h4>Look For More Products That Will Be Comming Soon on IG! (@the_kenny_creative)</h4>
+          <br>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides">
+            <img src="/assets/CAT-HAT-1.JPG" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <img src="/assets/CAT-HAT-2.JPG" style="width:50%">
+          </div>
+
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-      </div>
-    </div>
-      <hr color="white">
-    <div class="card">
-      <img src="/assets/mlp-2.JPG" alt="Kenny." style="width:100%">
-      <h1>Kenny C.</h1>
-      <p class="title">CEO & Founder.</p>
-      <p>17 | He/They</p>
-      <a class="contact-lnk" href="mailto:adminkennycov@thekennycreative.org">
-        <i class="bi bi-envelope"></i>
-      </a>
-      <a class="contact-lnk" href="https://www.instagram.com/333bytes">
-        <i class="bi bi-instagram"></i>
-      </a>
-      <a class="contact-lnk" href="https://github.com/nonbinarybyte">
-        <i class="bi bi-github"></i>
-      </a>
-      <p><button class="contact-btn">Contact</button></p>
-    </div>
-      <hr color="white">
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div> 
+      </section>
+    </article>
+      <hr>
     <footer style="width:800px;">
       <div class="Foot1" style="width:300px; float:left;">
         <a href="privacy.html">Privacy.</a>
@@ -117,13 +101,12 @@
           <br>
         <a href="jobs.html">Carrers.</a>
       </div>
+    
       <div class="Foot2" style="width:300px; float:right;">
-        <h3><i class="bi bi-c-circle"></i> 2024-2025 The Kenny Creative & TKC - ALL RIGHTS RESERVED.</h3>
+        <h3>2024-2025 The Kenny Creative @ TKC - ALL RIGHTS RESERVED.</h3>
       </div>
     </footer>
     <script src="search.js"></script>
-    <script>
-    !function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=new URLSearchParams(document.location.search),n=document.createElement("script");n.type="text/javascript", n.src="https://global.ketchcdn.com/web/v2/config/the_kenny_creative/website_smart_tag/boot.js", n.defer=n.async=!0,document.getElementsByTagName("head")[0].appendChild(n)}();
-    </script>
+    <script src="cat-hat.js"></script>
   </body>
 </html>
